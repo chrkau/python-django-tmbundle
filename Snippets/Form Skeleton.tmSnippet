@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${1:Formname}(forms.Form):
+	"""${2:($1 description)}"""
+	$0
+</string>
+	<key>name</key>
+	<string>Form Skeleton</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>form</string>
+	<key>uuid</key>
+	<string>3A32A3C9-FE0C-48F0-B3E4-CAE85348077E</string>
+</dict>
+</plist>
