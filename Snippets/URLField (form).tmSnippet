@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:FIELDNAME} = forms.URLField()</string>
+	<key>name</key>
+	<string>URLField (form)</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>furl</string>
+	<key>uuid</key>
+	<string>B4A9167E-B07D-4D06-86E3-786B66BBFE9C</string>
+</dict>
+</plist>
