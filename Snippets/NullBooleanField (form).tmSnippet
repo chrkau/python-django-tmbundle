@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:FIELDNAME} = forms.NullBooleanField()</string>
+	<key>name</key>
+	<string>NullBooleanField (form)</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>fnullbool</string>
+	<key>uuid</key>
+	<string>3E5FE617-5F6F-4834-9C34-0A826919C85E</string>
+</dict>
+</plist>

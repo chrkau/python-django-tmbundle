@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:FIELDNAME} = forms.TypedChoiceField(choices=$2, coerce=$3)</string>
+	<key>name</key>
+	<string>TypedChoiceField (form)</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>fchoice</string>
+	<key>uuid</key>
+	<string>D15E1D27-4876-4966-BD73-9B322CC3C758</string>
+</dict>
+</plist>

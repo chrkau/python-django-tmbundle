@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:FIELDNAME} = forms.DateTimeField()</string>
+	<key>name</key>
+	<string>DateTimeField (form)</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>fdatetime</string>
+	<key>uuid</key>
+	<string>5BC2D126-8F27-4004-8319-B7953B44499F</string>
+</dict>
+</plist>
