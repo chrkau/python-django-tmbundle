@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>contactEmailRot13</key>
+	<string>synatl@tznvy.pbz</string>
+	<key>contactName</key>
+	<string>Adam Vandenberg</string>
 	<key>deleted</key>
 	<array>
 		<string>F4B0A70C-ECF6-4660-BC26-785216E3CF02</string>
@@ -31,7 +35,7 @@
 		<string>935AB0FE-2DB1-4B60-92F5-0D9C70ADF57F</string>
 	</array>
 	<key>description</key>
-	<string>Additional Python support for &lt;a href="http://www.djangoproject.com/"&gt;Django&lt;/a&gt;.</string>
+	<string>Provides additional support for &lt;a href="http://djangoproject.org"&gt;Django&lt;/a&gt; (Python) code files.</string>
 	<key>mainMenu</key>
 	<dict>
 		<key>items</key>
@@ -182,13 +186,12 @@
 		<string>915A33B7-2BB2-469D-92E8-8FB136C8C1E3</string>
 		<string>0AB01857-26CB-480B-A26C-E400C5FB3CD7</string>
 		<string>FA6A1E2D-930F-4DE2-9B87-E82728780156</string>
+		<string>E2A91CB2-8334-4D9A-9A4C-377C03465CFE</string>
+		<string>67355716-E9D9-4411-90B5-CF33695C12F8</string>
+		<string>A58156FD-2FCB-432D-B994-85F7F46DCEEA</string>
+		<string>DD2E7A26-671E-40DD-881C-C9B4625D0D6A</string>
 	</array>
 	<key>uuid</key>
 	<string>04734303-952E-44C6-BC53-650D4409E3BE</string>
-  <key>contactEmailRot13</key>
-  <string>synatl@tznvy.pbz</string>
-  <key>contactName</key>
-  <string>Adam Vandenberg</string>
-  <key>description</key>
-  <string>Provides additional support for &lt;a href="http://djangoproject.org"&gt;Django&lt;/a&gt; (Python) code files.</string></dict>
+</dict>
 </plist>
