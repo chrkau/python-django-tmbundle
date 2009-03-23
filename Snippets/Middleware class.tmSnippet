@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class $1Middleware(object):
+    """${2:Documentation for ${1}}
+    """
+
+    def process_request(self, request):
+        # request logic here
+
+    def process_response(self, request, response):
+        # response logic here
+        return response
+</string>
+	<key>name</key>
+	<string>Middleware class</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>middleware</string>
+	<key>uuid</key>
+	<string>4A5E931E-EE5B-4748-ACD0-1CE3FCBD2E99</string>
+</dict>
+</plist>
