@@ -7,4 +7,5 @@ this version adds:
 
  * Form fields
  * URL patterns
+ * view return (render, redirect, ...)
  * ...more to come...

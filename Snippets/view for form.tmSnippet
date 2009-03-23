@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>def ${1:view_name}(request${2:, ${3:...}}):
+	if request.method == "POST":
+        ${5:form} = ${6:form_class}(${7:${8:params}, }request.POST)
+        if ${5}.is_valid():
+            ${0:pass}
+	else:
+        ${5} = ${6}(${8})
+
+    return render_to_response('${4:template/name.html}', {
+        "form": ${5},
+}, context_instance=RequestContext(request))</string>
+	<key>name</key>
+	<string>view for form</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>viewf</string>
+	<key>uuid</key>
+	<string>DD2E7A26-671E-40DD-881C-C9B4625D0D6A</string>
+</dict>
+</plist>
