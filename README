@@ -7,5 +7,6 @@ this version adds:
 
  * Form fields
  * URL patterns
- * view return (render, redirect, ...)
+ * view and "view for form" skeletons
+ * view return (render_to_response, redirect, ...)
  * ...more to come...
