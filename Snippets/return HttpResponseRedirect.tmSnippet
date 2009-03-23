@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>return HttpResponseRedirect(reverse("${1:view_name}"))</string>
+	<string>return HttpResponseRedirect(${1:reverse("${2:view_name}")})</string>
 	<key>name</key>
 	<string>return HttpResponseRedirect</string>
 	<key>scope</key>
