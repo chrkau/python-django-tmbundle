@@ -40,16 +40,14 @@
 	<dict>
 		<key>items</key>
 		<array>
+			<string>B33B97B5-7A46-4AAD-86EE-CB57C14E4C1E</string>
 			<string>9B471729-45FD-4B42-B476-0B0E15391E6A</string>
 			<string>64A2A3D5-268C-42C5-87B4-96733D5AA954</string>
+			<string>CE3F7071-D5B4-45F2-A5C8-F76F714D176B</string>
+			<string>A9121671-4299-41B8-A0C3-69E0D04B48CE</string>
 			<string>------------------------------------</string>
 			<string>97AF7101-45AD-4286-8AA2-4F43E63EB452</string>
 			<string>C76F2D66-041D-4428-B378-8AC1D7E6DEDC</string>
-			<string>------------------------------------</string>
-			<string>5F79A28E-E2FA-4266-A069-2983B8828C04</string>
-			<string>8E3206BE-F9FE-47B5-9B87-0430BD2D41DE</string>
-			<string>6A4A796E-89B2-4F64-BE7C-F9FDEC00DF1A</string>
-			<string>132DE66D-9C24-4E82-96BA-2C7F3F990C4B</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -119,6 +117,43 @@
 				</array>
 				<key>name</key>
 				<string>Models</string>
+			</dict>
+			<key>A9121671-4299-41B8-A0C3-69E0D04B48CE</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>5F79A28E-E2FA-4266-A069-2983B8828C04</string>
+					<string>8E3206BE-F9FE-47B5-9B87-0430BD2D41DE</string>
+					<string>6A4A796E-89B2-4F64-BE7C-F9FDEC00DF1A</string>
+					<string>132DE66D-9C24-4E82-96BA-2C7F3F990C4B</string>
+				</array>
+				<key>name</key>
+				<string>Documentation</string>
+			</dict>
+			<key>B33B97B5-7A46-4AAD-86EE-CB57C14E4C1E</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>653FC784-D017-4AA6-A04F-56F7D7498C55</string>
+					<string>915A33B7-2BB2-469D-92E8-8FB136C8C1E3</string>
+					<string>0AB01857-26CB-480B-A26C-E400C5FB3CD7</string>
+					<string>FA6A1E2D-930F-4DE2-9B87-E82728780156</string>
+				</array>
+				<key>name</key>
+				<string>Configuration</string>
+			</dict>
+			<key>CE3F7071-D5B4-45F2-A5C8-F76F714D176B</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>A58156FD-2FCB-432D-B994-85F7F46DCEEA</string>
+					<string>DD2E7A26-671E-40DD-881C-C9B4625D0D6A</string>
+					<string>------------------------------------</string>
+					<string>E2A91CB2-8334-4D9A-9A4C-377C03465CFE</string>
+					<string>67355716-E9D9-4411-90B5-CF33695C12F8</string>
+				</array>
+				<key>name</key>
+				<string>Views</string>
 			</dict>
 		</dict>
 	</dict>
