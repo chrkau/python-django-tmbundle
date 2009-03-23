@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:FIELDNAME} = models.XMLField(schema_path=${2:/path/to/RelaxNG}${3:, blank=True})</string>
+	<string>url(r'^$4/$', '${5:view.function.name}'${6:, {${7:}\}}${8:, name="$9"}),</string>
 	<key>name</key>
-	<string>XMLField</string>
+	<string>url pattern</string>
 	<key>scope</key>
 	<string>source.python.django</string>
 	<key>tabTrigger</key>
-	<string>xmlf</string>
+	<string>url</string>
 	<key>uuid</key>
-	<string>0B31BBE8-B195-4164-B4F6-245803D21C30</string>
+	<string>0AB01857-26CB-480B-A26C-E400C5FB3CD7</string>
 </dict>
 </plist>

@@ -1,0 +1,10 @@
+Provides additional support for Django (Python) code files.
+It is a fork of Paul Bissex's original bundle.
+
+
+In addition to the model field support of the original bundle, 
+this version adds:
+
+ * Form fields
+ * URL patterns
+ * ...more to come...

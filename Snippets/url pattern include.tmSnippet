@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:FIELDNAME} = models.XMLField(schema_path=${2:/path/to/RelaxNG}${3:, blank=True})</string>
+	<string>url(r'^$1/$', include('${2:module.to.include}')),</string>
 	<key>name</key>
-	<string>XMLField</string>
+	<string>url pattern include</string>
 	<key>scope</key>
 	<string>source.python.django</string>
 	<key>tabTrigger</key>
-	<string>xmlf</string>
+	<string>include</string>
 	<key>uuid</key>
-	<string>0B31BBE8-B195-4164-B4F6-245803D21C30</string>
+	<string>FA6A1E2D-930F-4DE2-9B87-E82728780156</string>
 </dict>
 </plist>

@@ -178,8 +178,17 @@
 		<string>F96E9501-D470-4D8B-8288-DD67EA241F85</string>
 		<string>B4A9167E-B07D-4D06-86E3-786B66BBFE9C</string>
 		<string>C76F2D66-041D-4428-B378-8AC1D7E6DEDC</string>
+		<string>653FC784-D017-4AA6-A04F-56F7D7498C55</string>
+		<string>915A33B7-2BB2-469D-92E8-8FB136C8C1E3</string>
+		<string>0AB01857-26CB-480B-A26C-E400C5FB3CD7</string>
+		<string>FA6A1E2D-930F-4DE2-9B87-E82728780156</string>
 	</array>
 	<key>uuid</key>
 	<string>04734303-952E-44C6-BC53-650D4409E3BE</string>
-</dict>
+  <key>contactEmailRot13</key>
+  <string>synatl@tznvy.pbz</string>
+  <key>contactName</key>
+  <string>Adam Vandenberg</string>
+  <key>description</key>
+  <string>Provides additional support for &lt;a href="http://djangoproject.org"&gt;Django&lt;/a&gt; (Python) code files.</string></dict>
 </plist>
