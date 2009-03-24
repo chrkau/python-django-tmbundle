@@ -15,20 +15,61 @@
 	<key>patterns</key>
 	<array>
 		<dict>
-			<key>match</key>
-			<string>(meta|models)\.(Admin|AutoField|BooleanField|CharField|CommaSeparatedIntegerField|DateField|DateTimeField|DecimalField|EmailField|FileField|FilePathField|FloatField|ForeignKey|ImageField|IntegerField|IPAddressField|ManyToManyField|NullBooleanField|OneToOneField|PhoneNumberField|PositiveIntegerField|PositiveSmallIntegerField|SlugField|SmallIntegerField|TextField|TimeField|URLField|USStateField|XMLField)</string>
+			<key>begin</key>
+			<string>\b(models\.(Admin|AutoField|BooleanField|CharField|CommaSeparatedIntegerField|DateField|DateTimeField|DecimalField|EmailField|FileField|FilePathField|FloatField|ForeignKey|ImageField|IntegerField|IPAddressField|ManyToManyField|NullBooleanField|OneToOneField|PhoneNumberField|PositiveIntegerField|PositiveSmallIntegerField|SlugField|SmallIntegerField|TextField|TimeField|URLField|USStateField|XMLField))\(</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>support.type.django.model</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(\))</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.arguments.end.python</string>
+				</dict>
+			</dict>
 			<key>name</key>
-			<string>support.type.django.model</string>
+			<string>meta.function-call.python</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>#keyword_arguments</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>source.python</string>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>django(\.[a-z]+){1,} </string>
+			<string>\b(forms)\.(Admin|AutoField|BooleanField|CharField|CommaSeparatedIntegerField|DateField|DateTimeField|DecimalField|EmailField|FileField|FilePathField|FloatField|ForeignKey|ImageField|IntegerField|IPAddressField|ManyToManyField|NullBooleanField|OneToOneField|PhoneNumberField|PositiveIntegerField|PositiveSmallIntegerField|SlugField|SmallIntegerField|TextField|TimeField|URLField|USStateField|XMLField|ValidationError)\b</string>
+			<key>name</key>
+			<string>support.type.django.form</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(TextInput|PasswordInput|HiddenInput|FileInput|DateInput|DateTimeInput|TimeInput|TextArea|CheckboxInput|Select|NullBooleanSelect|SelectMultiple|RadioSelect|CheckboxSelectMultiple|MultiWidget|SplitDateTimeWidget)\b</string>
+			<key>name</key>
+			<string>support.type.django.form.widgets</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>django((\.[a-z]+){1,}|\b)</string>
 			<key>name</key>
 			<string>support.other.django.module</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(ABSOLUTE_URL_OVERRIDES|ADMIN_FOR|ADMIN_MEDIA_PREFIX|ADMINS|ALLOWED_INCLUDE_ROOTS|APPEND_SLASH|AUTHENTICATION_BACKENDS|AUTH_PROFILE_MODULE|CACHE_BACKEND|CACHE_MIDDLEWARE_KEY_PREFIX|CACHE_MIDDLEWARE_SECONDS|DATABASE_ENGINE|DATABASE_HOST|DATABASE_NAME|DATABASE_OPTIONS|DATABASE_PASSWORD|DATABASE_PORT|DATABASE_USER|DATE_FORMAT|DATETIME_FORMAT|DEBUG|DEFAULT_CHARSET|DEFAULT_CONTENT_TYPE|DEFAULT_FROM_EMAIL|DEFAULT_TABLESPACE|DEFAULT_INDEX_TABLESPACE|DISALLOWED_USER_AGENTS|EMAIL_HOST_PASSWORD|EMAIL_HOST_USER|EMAIL_HOST|EMAIL_PORT|EMAIL_SUBJECT_PREFIX|EMAIL_USE_TLS|FILE_CHARSET|FIXTURE_DIRS|IGNORABLE_404_ENDS|IGNORABLE_404_STARTS|INSTALLED_APPS|INTERNAL_IPS|JING_PATH|LANGUAGE_CODE|LANGUAGE_COOKIE_NAME|LANGUAGES|LOCALE_PATHS|LOGIN_REDIRECT_URL|LOGIN_URL|LOGOUT_URL|MANAGERS|MEDIA_ROOT|MEDIA_URL|MIDDLEWARE_CLASSES|MONTH_DAY_FORMAT|PREPEND_WWW|PROFANITIES_LIST|ROOT_URLCONF|SECRET_KEY|SEND_BROKEN_LINK_EMAILS|SERIALIZATION_MODULES|SERVER_EMAIL|SESSION_ENGINE|SESSION_COOKIE_AGE|SESSION_COOKIE_DOMAIN|SESSION_COOKIE_NAME|SESSION_COOKIE_PATH|SESSION_COOKIE_SECURE|SESSION_EXPIRE_AT_BROWSER_CLOSE|SESSION_FILE_PATH|SESSION_SAVE_EVERY_REQUEST|SITE_ID|TEMPLATE_CONTEXT_PROCESSORS|TEMPLATE_DEBUG|TEMPLATE_DIRS|TEMPLATE_LOADERS|TEMPLATE_STRING_IF_INVALID|TEST_DATABASE_CHARSET|TEST_DATABASE_COLLATION|TEST_DATABASE_NAME|TEST_RUNNER|TIME_FORMAT|TIME_ZONE|URL_VALIDATOR_USER_AGENT|USE_ETAGS|USE_I18N|YEAR_MONTH_FORMAT)</string>
+			<string>\b(ABSOLUTE_URL_OVERRIDES|ADMIN_FOR|ADMIN_MEDIA_PREFIX|ADMINS|ALLOWED_INCLUDE_ROOTS|APPEND_SLASH|AUTHENTICATION_BACKENDS|AUTH_PROFILE_MODULE|CACHE_BACKEND|CACHE_MIDDLEWARE_KEY_PREFIX|CACHE_MIDDLEWARE_SECONDS|DATABASE_ENGINE|DATABASE_HOST|DATABASE_NAME|DATABASE_OPTIONS|DATABASE_PASSWORD|DATABASE_PORT|DATABASE_USER|DATE_FORMAT|DATETIME_FORMAT|DEBUG|DEFAULT_CHARSET|DEFAULT_CONTENT_TYPE|DEFAULT_FROM_EMAIL|DEFAULT_TABLESPACE|DEFAULT_INDEX_TABLESPACE|DISALLOWED_USER_AGENTS|EMAIL_HOST_PASSWORD|EMAIL_HOST_USER|EMAIL_HOST|EMAIL_PORT|EMAIL_SUBJECT_PREFIX|EMAIL_USE_TLS|FILE_CHARSET|FIXTURE_DIRS|IGNORABLE_404_ENDS|IGNORABLE_404_STARTS|INSTALLED_APPS|INTERNAL_IPS|JING_PATH|LANGUAGE_CODE|LANGUAGE_COOKIE_NAME|LANGUAGES|LOCALE_PATHS|LOGIN_REDIRECT_URL|LOGIN_URL|LOGOUT_URL|MANAGERS|MEDIA_ROOT|MEDIA_URL|MIDDLEWARE_CLASSES|MONTH_DAY_FORMAT|PREPEND_WWW|PROFANITIES_LIST|ROOT_URLCONF|SECRET_KEY|SEND_BROKEN_LINK_EMAILS|SERIALIZATION_MODULES|SERVER_EMAIL|SESSION_ENGINE|SESSION_COOKIE_AGE|SESSION_COOKIE_DOMAIN|SESSION_COOKIE_NAME|SESSION_COOKIE_PATH|SESSION_COOKIE_SECURE|SESSION_EXPIRE_AT_BROWSER_CLOSE|SESSION_FILE_PATH|SESSION_SAVE_EVERY_REQUEST|SITE_ID|TEMPLATE_CONTEXT_PROCESSORS|TEMPLATE_DEBUG|TEMPLATE_DIRS|TEMPLATE_LOADERS|TEMPLATE_STRING_IF_INVALID|TEST_DATABASE_CHARSET|TEST_DATABASE_COLLATION|TEST_DATABASE_NAME|TEST_RUNNER|TIME_FORMAT|TIME_ZONE|URL_VALIDATOR_USER_AGENT|USE_ETAGS|USE_I18N|YEAR_MONTH_FORMAT)\b</string>
 			<key>name</key>
 			<string>variable.other.django.settings</string>
 		</dict>
@@ -47,6 +88,46 @@
 		<dict>
 			<key>include</key>
 			<string>source.python</string>
+		</dict>
+		<dict>
+			<key>repository</key>
+			<dict>
+				<key>keyword_arguments</key>
+				<dict>
+					<key>begin</key>
+					<string>\b([a-zA-Z_][a-zA-Z_0-9]*)\s*(=)(?!=)</string>
+					<key>beginCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>variable.parameter.function.python</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>keyword.operator.assignment.python</string>
+						</dict>
+					</dict>
+					<key>end</key>
+					<string>\s*(?:(,)|(?=$\n?|[\)\:]))</string>
+					<key>endCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.separator.parameters.python</string>
+						</dict>
+					</dict>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>source.python</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
 		</dict>
 	</array>
 	<key>scopeName</key>
