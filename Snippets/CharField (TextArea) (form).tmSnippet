@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:FIELDNAME} = forms.CharField(wiget=Textarea, $2)</string>
+	<string>${1:FIELDNAME} = forms.CharField(widget=forms.Textarea, $2)</string>
 	<key>name</key>
 	<string>CharField (TextArea) (form)</string>
 	<key>scope</key>
