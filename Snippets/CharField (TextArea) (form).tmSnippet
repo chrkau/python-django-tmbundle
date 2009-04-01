@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:FIELDNAME} = forms.TimeField($2)</string>
+	<string>${1:FIELDNAME} = forms.CharField(wiget=Textarea, $2)</string>
 	<key>name</key>
-	<string>TimeField (form)</string>
+	<string>CharField (TextArea) (form)</string>
 	<key>scope</key>
 	<string>source.python.django</string>
 	<key>tabTrigger</key>
-	<string>ftime</string>
+	<string>ftext</string>
 	<key>uuid</key>
-	<string>F96E9501-D470-4D8B-8288-DD67EA241F85</string>
+	<string>E7BA6B21-3062-48B7-B5D9-EE4FB9E81E7F</string>
 </dict>
 </plist>

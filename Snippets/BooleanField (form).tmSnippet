@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:FIELDNAME} = forms.BooleanField()</string>
+	<string>${1:FIELDNAME} = forms.BooleanField($2)</string>
 	<key>name</key>
 	<string>BooleanField (form)</string>
 	<key>scope</key>

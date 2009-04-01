@@ -75,7 +75,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(get_list_or_404|get_object_or_404|load_and_render|loader|render_to_response)</string>
+			<string>\b(get_list_or_404|get_object_or_404|load_and_render|loader|render_to_response)\b</string>
 			<key>name</key>
 			<string>support.function.django.view</string>
 		</dict>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:FIELDNAME} = forms.FileField()</string>
+	<string>${1:FIELDNAME} = forms.FileField($2)</string>
 	<key>name</key>
 	<string>FileField (form)</string>
 	<key>scope</key>

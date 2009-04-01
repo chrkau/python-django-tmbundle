@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:FIELDNAME} = forms.IPAddressField()</string>
+	<string>${1:FIELDNAME} = forms.IPAddressField($2)</string>
 	<key>name</key>
 	<string>IPAddressField (form)</string>
 	<key>scope</key>
