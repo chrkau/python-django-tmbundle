@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:FIELDNAME} = forms.FloatField()</string>
+	<string>${1:FIELDNAME} = forms.FloatField($2)</string>
 	<key>name</key>
 	<string>FloatField (form) </string>
 	<key>scope</key>

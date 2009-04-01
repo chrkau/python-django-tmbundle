@@ -158,7 +158,7 @@
 		</dict>
 	</dict>
 	<key>name</key>
-	<string>Django</string>
+	<string>Django Code</string>
 	<key>ordering</key>
 	<array>
 		<string>5326D56C-6F76-4758-8DB7-D818527919AC</string>
@@ -200,6 +200,7 @@
 		<string>9E3804F0-1EAA-4259-B368-D8DF3034AF43</string>
 		<string>3E5FE617-5F6F-4834-9C34-0A826919C85E</string>
 		<string>1DCC15FB-CE3D-49C2-8446-FE14B3F8E303</string>
+		<string>E7BA6B21-3062-48B7-B5D9-EE4FB9E81E7F</string>
 		<string>0AE68C1E-16A4-4961-BCC6-03CE218EE93D</string>
 		<string>D15E1D27-4876-4966-BD73-9B322CC3C758</string>
 		<string>3E829473-973A-4CFC-89C7-E2F459050E96</string>
