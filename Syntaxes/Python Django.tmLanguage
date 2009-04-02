@@ -56,23 +56,10 @@
                 <string>\b(TextInput|PasswordInput|HiddenInput|FileInput|DateInput|DateTimeInput|TimeInput|TextArea|CheckboxInput|Select|NullBooleanSelect|SelectMultiple|RadioSelect|CheckboxSelectMultiple|MultiWidget|SplitDateTimeWidget)\b</string>
             </dict>
             <dict>
-                <key>captures</key>
-                <dict>
-                    <key>2</key>
-                    <dict>
-                        <key>name</key>
-                        <string>support.other.django.module</string>
-                    </dict>
-                    <key>1</key>
-                    <dict>
-                        <key>name</key>
-                        <string>keyword.control.import.python</string>
-                    </dict>
-                </dict>
                 <key>name</key>
-                <string>meta.import.django</string>
+                <string>support.other.django.module</string>
                 <key>match</key>
-                <string>(from|import)\s+(django(\.[_A-Za-z][_A-Za-z0-9]+)+)</string>
+                <string>django\.(conf|contrib|core|db|dispatch|forms|http|middleware|shortcuts|template|templatetags|test|utils|views)(\.[_A-Za-z][_A-Za-z0-9]+)*</string>
             </dict>
             <dict>
                 <key>name</key>
