@@ -5,7 +5,7 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>open "http://groups.google.com/group/django-users"
+	<string>open "http://groups.google.com/group/django-developers"
 </string>
 	<key>input</key>
 	<string>none</string>
