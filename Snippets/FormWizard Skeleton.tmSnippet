@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${1:WizardName}Wizard(FormWizard):
+	"""${2:($1 description)}"""
+${3:	def __init__(self, initial=None):
+		FormWizard.__init__(self, [Form, list, goes, here], initial)
+
+}	def done(self, request, form_list):
+		# Do something with form data...
+		return HttpResponseRedirect('${4:/page-to-redirect-to-when-done/}')
+
+${5:	def get_template(self, step):
+		pass
+
+}${6:	def process_step(self, request, form, step):
+		pass
+}$0</string>
+	<key>name</key>
+	<string>FormWizard Skeleton</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>wizard</string>
+	<key>uuid</key>
+	<string>D66F07F8-EC11-4048-AA5A-BC45C985F951</string>
+</dict>
+</plist>
