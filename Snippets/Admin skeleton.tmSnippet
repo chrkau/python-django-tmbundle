@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${1:ModelName}Admin(admin.ModelAdmin):
+	${2:pass
+	}${3:inlines = [$4]}
+</string>
+	<key>name</key>
+	<string>Admin skeleton</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>admin</string>
+	<key>uuid</key>
+	<string>B5D3EE6E-361D-4DA5-99D2-018BEB673849</string>
+</dict>
+</plist>
