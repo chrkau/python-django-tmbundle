@@ -3,23 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>class ${1:Modelname}(models.Model):
-	"""${2:($1 description)}"""
-	$0
-
-	class Meta:
-		pass
-
-	def __unicode__(self):
-		return u"$1"
-</string>
+	<string>class ${1:Modelname}Inline(admin.StackedInline):
+	model = $1</string>
 	<key>name</key>
-	<string>Model Skeleton</string>
+	<string>StackedInline (admin)</string>
 	<key>scope</key>
 	<string>source.python.django</string>
 	<key>tabTrigger</key>
-	<string>model</string>
+	<string>inlines</string>
 	<key>uuid</key>
-	<string>311C17C5-A556-48D4-B91F-DD28BB0CF4E7</string>
+	<string>5B1EF89E-6A67-4847-92CD-0F80C9BF4047</string>
 </dict>
 </plist>
