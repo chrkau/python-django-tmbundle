@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>class ${1:Modelname}Inline(admin.StackedInline):
+	<string>class ${1:Modelname}Inline(admin.TabularInline):
 	model = $1</string>
 	<key>name</key>
-	<string>StackedInline (admin)</string>
+	<string>TabularInline (admin)</string>
 	<key>scope</key>
 	<string>source.python.django</string>
 	<key>tabTrigger</key>
 	<string>inline</string>
 	<key>uuid</key>
-	<string>5B1EF89E-6A67-4847-92CD-0F80C9BF4047</string>
+	<string>0C875D0D-3643-453F-B422-B016911EF737</string>
 </dict>
 </plist>
