@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>url(r'^$1/$', include('${2:module.to.include}')),</string>
+	<string>url(r'^$1/$', include('${2:module.to.include}.urls')),</string>
 	<key>name</key>
 	<string>url pattern include</string>
 	<key>scope</key>
